@@ -6,7 +6,7 @@ import os
 WIDTH, HEIGHT = 1024, 768
 CLOCK_TICK = 60
 GAME_TIME = 600
-SCORE_TO_WIN = 1
+SCORE_TO_WIN = 50
 
 csv_path = os.path.join("assets", "50_states.csv")
 df = pd.read_csv(csv_path)
